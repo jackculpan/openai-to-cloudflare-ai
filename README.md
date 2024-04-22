@@ -10,7 +10,7 @@ npm run dev
 npm run deploy
 ```
 
-## Example (Ruby using the ruby-openai gem https://github.com/alexrudall/ruby-openai)
+[Example (Ruby using the ruby-openai gem)](https://github.com/alexrudall/ruby-openai)
 
 ```ruby
 require 'openai'
