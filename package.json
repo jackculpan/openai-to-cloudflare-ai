@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "wrangler dev --remote src/index.tsx",
+    "deploy": "wrangler deploy --minify src/index.tsx"
+  },
+  "dependencies": {
+    "@cloudflare/ai": "^1.0.14",
+    "hono": "^3.8.0-rc.2"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230914.0",
+    "wrangler": "^3.10.1"
+  }
+}
